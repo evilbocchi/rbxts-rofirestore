@@ -42,3 +42,7 @@ print(userDoc);
 ## License
 
 MIT
+
+## Credits
+
+https://devforum.roblox.com/t/rofirestore-a-new-way-of-storage/3412592 - Upstream module by maxplayz2746
