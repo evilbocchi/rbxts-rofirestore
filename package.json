@@ -1,0 +1,49 @@
+{
+  "name": "@rbxts/rofirestore",
+  "version": "0.0.0",
+  "description": "A Roblox TypeScript library for interacting with Google Firestore.",
+  "main": "RoFirestore/init.luau",
+  "scripts": {
+    "lint": "npx eslint --fix",
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilbocchi/rbxts-rofirestore.git"
+  },
+  "keywords": [],
+  "author": "evilbocchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evilbocchi/rbxts-rofirestore/issues"
+  },
+  "homepage": "https://github.com/evilbocchi/rbxts-rofirestore#readme",
+  "types": "RoFirestore/index.d.ts",
+  "files": [
+    "RoFirestore",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.881",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-roblox-ts": "^1.1.0",
+    "rbx-lune": "^1.0.0",
+    "roblox-ts": "^3.0.0",
+    "rojo": "^1.0.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.44.0"
+  },
+  "dependencies": {
+    "@rbxts/services": "^1.5.5"
+  }
+}
